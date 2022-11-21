@@ -31,9 +31,11 @@ private void optimizedBubbleSort(int[] arr) {
 				System.out.println("\n inside swap");
 				
 			}
-			if(flag==false) {
+			
+		} //end of inner for loop
+		//if we find no swapping in 1st iteration i.e i=0 then we exit coz array will be already sorted.
+		if(flag==false) {
 				break;
-			}
 		}
 	}
 }
